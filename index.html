@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador automático de senha</title>
+    
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 id="title">
+        Password Generator
+    </h1>
+        <main class="container-input"> 
+            <script src="./script.js"></script>
+            <span>
+                Nº de caracteres: <span id="value"></span>
+            </span>
+            <input 
+                id="slider" 
+                class="slider" 
+                type="range" 
+                min="6" 
+                max="30"
+                value="6">
+            <button id="button" class="button-cta">Gerar Senha</button>
+        </main>
+        <div id="container-password" class="container-password hide">
+            <span class="text-return">A senha gerada foi: </span>
+            <span id="password" class="password">12345</span>
+            <span class="tooltip">Clique na senha para copiar 😎</span>
+        </div>
+</body>
+</html>
