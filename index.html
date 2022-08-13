@@ -13,9 +13,8 @@
         Password Generator
     </h1>
         <main class="container-input"> 
-            <script src="./script.js"></script>
             <span>
-                Nº de caracteres: <span id="value"></span>
+                Nº de caracteres: <span id="valor"></span>
             </span>
             <input 
                 id="slider" 
@@ -24,12 +23,17 @@
                 min="6" 
                 max="30"
                 value="6">
-            <button id="button" class="button-cta">Gerar Senha</button>
+            <button
+             id="button"
+             class="button-cta"
+             onclick="generatePassword()">Gerar Senha</button>
         </main>
         <div id="container-password" class="container-password hide">
             <span class="text-return">A senha gerada foi: </span>
-            <span id="password" class="password">12345</span>
+            <span id="password" class="password"
+            onclick="copyPassword()">12345</span>
             <span class="tooltip">Clique na senha para copiar 😎</span>
         </div>
+        <script src="./script.js"></script>
 </body>
 </html>
