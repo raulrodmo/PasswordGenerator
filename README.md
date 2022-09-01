@@ -1,4 +1,4 @@
-Repositório criado para desenvolver um gerador de senhas.
+O projeto consiste em uma página de gereção de senhas automáticas, onde o usuário informa o número de caracteres que deseja na senha em seguida ao clicar em "Gerar Senha" a senha é exibida.
 <br>
 Link funcional: https://passwordgenerator-raulrodmo.netlify.app/
 <br>
