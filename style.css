@@ -19,7 +19,7 @@ h1{
     font-size: 56px;
     margin-bottom: 24px;
 }
-.container-input{
+.container_input{
     max-width: 480px;
     margin: 14px 0;
     font-weight: bold;
@@ -33,7 +33,7 @@ h1{
     outline: none;
     margin-top: 8px;
 }
-.button-cta{
+.button_cta{
     height: 48px;
     color: darksalmon;
     background-color:black;
@@ -43,14 +43,14 @@ h1{
     margin-top: 40px;
     font-weight: bold;
 }
-.container-password{
+.container_password{
     max-width: 480px;
     margin: 14px 0;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.text-return{
+.text_return{
     text-align: center;
     font-size: 28px;
     font-weight: bold;
@@ -87,7 +87,7 @@ h1{
 .hide {
     display: none;
 }
-.container-password:hover .tooltip{
+.container_password:hover .tooltip{
     visibility: visible;
     opacity: 1;
 }
