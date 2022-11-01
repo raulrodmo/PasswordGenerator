@@ -2,8 +2,10 @@ O projeto consiste em uma página de gereção de senhas automáticas, onde o us
 <br>
 Link funcional: https://passwordgenerator-raulrodmo.netlify.app/
 <br>
-Abaixo temos uma imagem expositava do resultado:
-![image](https://user-images.githubusercontent.com/102265187/184506427-023116e5-e844-4dbf-af37-55c7226d5753.png)
+Abaixo temos um vídeo expositavo do resultado:
+
+https://user-images.githubusercontent.com/102265187/199360264-7247da0f-4747-4a4a-8b29-b3ec8c5c7180.mp4
+
 #### Programming languages used
 <div>
       <a href="https://github.com/raulrodmo">
